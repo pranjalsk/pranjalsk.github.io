@@ -241,7 +241,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background-color: #74808a;
+    background-color: #374054;
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -288,12 +288,13 @@ footer {
 }
 
 #lead-content h3 {
-    color: #fff;
-    font-family: Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif;
+    color: #cce0ee;
+    font-family: Aclonica;
     font-weight: 500;
     font-size: 1.5em;
     margin-bottom: 15px
 }
+
 
 #lead-content h4 {
     color: #fff;
@@ -611,12 +612,18 @@ footer {
 
 #contact {
     padding: 50px 15px;
-       background-color: #74808a;
+       background-color: #374054;
     background-size: cover;
     text-align: center
 }
 
 #contact h2 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 500
+}
+
+#contact h3 {
     margin: 0 0 15px 0;
     color: #fff;
     font-weight: 500
