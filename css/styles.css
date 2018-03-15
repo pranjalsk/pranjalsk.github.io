@@ -266,8 +266,8 @@ footer {
     border: 0.5px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 250px;
-    min-height: 250px;
+    width: 200px;
+    min-height: 200px;
 }
 
 #lead-content h1 {
@@ -509,7 +509,7 @@ footer {
     color: #74808a;
     clear: both;
     font-weight: 500;
-    margin: 0 0 15px 0
+    margin: 0 0 10px 0
 }
 
 .education-block p,
@@ -565,7 +565,8 @@ footer {
 .project-info p {
     color: #74808a;
     margin: 0 0 15px 0;
-    font-size: 1.0em
+    font-size: 1.0em;
+    text-align: center
 }
 
 .no-image .project-info {
@@ -609,7 +610,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background-color: #74808a;
+       background-color: #74808a;
     background-size: cover;
     text-align: center
 }
