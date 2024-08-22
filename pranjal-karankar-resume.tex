@@ -1,0 +1,97 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym, amsmath, amssymb, enumitem, titlesec, parskip}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage[left=0.3in, right=0.3in, top=0.3in, bottom=0.3in]{geometry} % Adjusted side margins
+
+% Custom Commands
+\newcommand{\resumeItem}[1]{\item #1}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \vspace{2pt}
+      {#3} & {#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\bullet$}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\definecolor{mygray}{gray}{0.35}
+
+% Document
+\begin{document}
+
+% Heading
+% Heading
+{\LARGE \textbf{Pranjal Karankar}}
+\hfill
+\raisebox{-0.1\height} {\large \faPhoneSquare}\ (480) 494-1580 \hfill
+\raisebox{-0.1\height}{\large \faEnvelopeSquare}\ pranjalsk20@gmail.com \hfill
+\raisebox{-0.1\height}{\large \faLinkedinSquare}\ linkedin.com/in/pranjalk20
+
+% Education
+\section{Education}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeSubheading{Arizona State University, Az}{}{M.S., Software Engineering $|$ GPA: 3.6/4.0}{May 2018}
+    \resumeSubheading{University of Pune, India}{}{B.E., Electronics \& Telecom $|$  GPA: 3.8/4.0}{May 2015}
+    \resumeSubheading{Harvard Business School Online}{}{CORe – Economics, Accounting, Business Analytics}{Aug 2019}
+\end{itemize}
+
+% Skills
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+     \resumeItem{\textbf{Languages/Frameworks:} Java, Kafka, Spring Boot, JavaScript, Node.js, Vue.js, Scala}
+    \resumeItem{\textbf{Databases:} Postgres, Cassandra, MongoDB, Solr, Memcached}
+    \resumeItem{\textbf{Other:} REST, GraphQL, Docker, Kubernetes, Azure, GCP, Git, Engineering Management}
+
+\end{itemize}
+
+% Experience
+\section{Experience}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeSubheading{\large Walmart Inc., Ar}{}{\textcolor{mygray}{\textbf{Senior Software Engineer}} \textit{(Java, Spring Boot, GraphQL, Kafka, Postgres, K8s, Docker)}}{Sept 2022 -- Present}
+    \begin{itemize}
+        \resumeSubItem{Led a team of 10 engineers to develop a tier-1 Warehouse Order Management product for Sam's Club Replenishment, successfully deployed across 18 Perishable DCs and currently being implemented in 4 Import DCs.}
+        \resumeSubItem{Championed a scalable and resilient event-driven microservices architecture while adhering to domain-driven design principles and successfully achieved kafka throughput of 5K TPS. }
+        \resumeSubItem{Achieved 99.5\% availability and strong data consistency by leveraging fault-tolerant design patterns like Virtual Queues, Outbox, CQRS, Circuit Breakers, and systematic self-healing measures.}
+        \resumeSubItem{Conducted Disaster Recovery and Performance Testing exercises to ensure scalability and continuous system availability.}
+        \resumeSubItem{Successfully recruited talent by conducting 50+ technical interviews and mentoring 2 engineers on career growth.}
+    \end{itemize}
+    \resumeSubheading{}{}{\textcolor{mygray}{\textbf{Software Engineer III}} \textit{(Spring Boot, Cassandra, Solr, Helm)}}{April 2021 -- Aug 2022}
+    \begin{itemize}
+        \resumeSubItem{Developed REST microservices to redefine supplier onboarding experience for 500k+ global users, slashing average onboarding time by 80\% and increased NPS by 30 points.}
+        \resumeSubItem{Reduced operational computing costs by 30\% through CI/CD and containerized public cloud deployments.}
+        \resumeSubItem{Established Operational Excellence practices with logging, alerting, tracing, and application metrics dashboards.}
+        \resumeSubItem{Influenced strategy by presenting technical proof of concepts to executives across the organization and collaborating with stakeholders on converting product requirements to technical stories.}
+    \end{itemize}
+    \resumeSubheading{}{}{\textcolor{mygray}{\textbf{Software Engineer II}} \textit{(Java, Scala, Apache Spark, Cassandra, VMs)}}{July 2018 -- Mar 2021}
+    \begin{itemize}
+        \resumeSubItem{Led implementation of Contact Hub to centralize supplier contacts deprecating more than 90\% of support entry points.}
+        \resumeSubItem{Developed REST microservices, data migration, and sanitization scripts, seamlessly integrating them with legacy systems through Kafka. This strategic integration led to an annual cost savings of \$1.04M through effective case deflection.}
+        \resumeSubItem{Collaborated closely with multiple engineering and support teams, efficiently troubleshooting, and resolving critical P1 incidents during on-call rotations. Conducted thorough Root Cause Analyses (RCAs) to prevent future occurrences.}
+        \resumeSubItem{Coached a cross-functional team of 8 engineers in Agile-Scrum, resulting in improved transparency and productivity.}
+    \end{itemize}
+    \vspace{0.2cm}
+    \resumeSubheading{\large Arizona State University, Az}{}{\textcolor{mygray}{\textbf{Student Developer}} \textit{(Spring MVC, SQL Server, JavaScript, Ajax, jQuery)}}{Oct 2016 -- Mar 2018}
+    \begin{itemize}
+        \resumeSubItem{Developed transcripts upload APIs for application portal of the university used by 100K+ applicants every year.}
+        \resumeSubItem{Reduced human data entry errors by 70\% by using Optical Image Recognition on student transcript uploads.}
+    \end{itemize}
+    \vspace{0.2cm}
+    \resumeSubheading{\large Accenture, India}{}{\textcolor{mygray}{\textbf{Associate Software Engineer}}}{June 2015 -- June 2016}
+    \begin{itemize}
+        \resumeSubItem{Developed on spring based monolith for historical sales data viewer application for a large scale FMCG client.}
+        \resumeSubItem{Revamped legacy stored procedures using query optimization and indexing which reduced execution time by 50\%.}
+    \end{itemize}
+\end{itemize}
+
+% achievements
+\section{Achievements}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeSubItem {Received \textbf{Making the Difference} award twice and \textbf{Bravo} award for leading key replenishment initiatives.}
+    \resumeSubItem {Dale Carnegie Human Relations and Communication Course (12 weeks): \textbf{Outstanding Performance Award}.}
+    \resumeSubItem {\textbf{Scrum.org} Professional Scrum Product Owner I (PSPO), Professional Scrum Master I (PSM).}
+\end{itemize}
+
+\end{document}
